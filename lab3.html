@@ -73,7 +73,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#no3" class="md-skip">
+        <a href="#no3-dom-" class="md-skip">
           Перейти к содержанию
         </a>
       
@@ -422,17 +422,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#dom-" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Объектная модель документа. Использование DOM для доступа к элементам веб-страницы.
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#1" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -768,12 +757,12 @@
   <a href="#2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. Практические задания по блоку
+        2. Задание
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="2. Практические задания по блоку">
+    <nav class="md-nav" aria-label="2. Задание">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -859,6 +848,17 @@
     <span class="md-ellipsis">
       
         2.1.5. Блок E — основы модульности
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#216-f-dom-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1.6. Блок F — DOM (2 задачи)
       
     </span>
   </a>
@@ -1209,17 +1209,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#dom-" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Объектная модель документа. Использование DOM для доступа к элементам веб-страницы.
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#1" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1555,12 +1544,12 @@
   <a href="#2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. Практические задания по блоку
+        2. Задание
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="2. Практические задания по блоку">
+    <nav class="md-nav" aria-label="2. Задание">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1646,6 +1635,17 @@
     <span class="md-ellipsis">
       
         2.1.5. Блок E — основы модульности
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#216-f-dom-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1.6. Блок F — DOM (2 задачи)
       
     </span>
   </a>
@@ -1861,8 +1861,7 @@
 
 
 
-<h1 id="no3">Лабораторная работа №3</h1>
-<h2 id="dom-">Объектная модель документа. Использование DOM для доступа к элементам веб-страницы.</h2>
+<h1 id="no3-dom-">Лабораторная работа №3 - Объектная модель документа. Использование DOM для доступа к элементам веб-страницы.</h1>
 <h2 id="1">1. Теория</h2>
 <h3 id="10">1.0. Цель работы</h3>
 <p>Сформировать у обучающегося устойчивые навыки работы с <strong>объектной моделью документа (DOM)</strong>: получать элементы web-страницы, читать и изменять их свойства, создавать и удалять узлы, обрабатывать пользовательские события и реализовывать динамическое обновление интерфейса на основе данных предметной области. Дополнительно закрепить работу с <strong>функциями</strong>, <strong>массивами</strong>, <strong>объектами</strong>, методами обработки данных и базовыми принципами <strong>модульности</strong> (разделение кода минимум на 2 файла JavaScript).</p>
@@ -2206,7 +2205,7 @@ logic.js  → функции filter/find/sort/reduce
 script.js → DOM, события, renderList
 </code></pre></div>
 <hr>
-<h2 id="2">2. Практические задания по блоку</h2>
+<h2 id="2">2. Задание</h2>
 <p>Цель: закрепить работу с DOM и событиями, а также применить <strong>функции</strong>, <strong>массивы</strong>, <strong>объекты</strong>, методы обработки данных и основы <strong>модульности</strong> на материале <strong>своей предметной области</strong>.</p>
 <hr>
 <h3 id="_1">Смысл лабораторной работы</h3>
@@ -2340,34 +2339,27 @@ script.js → DOM, события, renderList
 <div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">"data.js"</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
 <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">"logic.js"</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
 <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">"script.js"</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-````
-
-**Ожидаемый результат:**
-
-* страница открывается без ошибок в консоли.
-
----
-
-**Задача E2.**
-В `logic.js` создать функцию `helloFromLogic()`, которая возвращает строку `"logic works"`.
-
-В `script.js`:
-
-* вызвать `helloFromLogic()` и вывести результат в консоль.
-
-**Ожидаемый результат:**
-
-* в консоли выводится `"logic works"`.
-
----
-
-#### 2.1.6. Блок F — DOM (2 задачи)
-
-**Задача F1.**
-В `index.html` создать элемент:
-
-```html
-<span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">"message"</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Ожидаемый результат:</strong></p>
+<ul>
+<li>страница открывается без ошибок в консоли.</li>
+</ul>
+<hr>
+<p><strong>Задача E2.</strong>
+В <code>logic.js</code> создать функцию <code>helloFromLogic()</code>, которая возвращает строку <code>"logic works"</code>.</p>
+<p>В <code>script.js</code>:</p>
+<ul>
+<li>вызвать <code>helloFromLogic()</code> и вывести результат в консоль.</li>
+</ul>
+<p><strong>Ожидаемый результат:</strong></p>
+<ul>
+<li>в консоли выводится <code>"logic works"</code>.</li>
+</ul>
+<hr>
+<h4 id="216-f-dom-2">2.1.6. Блок F — DOM (2 задачи)</h4>
+<p><strong>Задача F1.</strong>
+В <code>index.html</code> создать элемент:</p>
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">"message"</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
 </code></pre></div>
 <p>В <code>script.js</code>:</p>
 <ul>
