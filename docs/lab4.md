@@ -384,7 +384,7 @@ async function safeFetchJson(url) {
 
 ---
 
-#### 2.1.5. Блок E — асинхронность: Promise и async/await
+#### 2.1.5. Блок E — асинхронность: Promise и async/await (2 задачи)
 
 **Задача E1.**
 Создать функцию `delay(ms)`, которая:
